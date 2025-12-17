@@ -22,3 +22,8 @@ The problem statement says "any gaps" which is taken to mean the first gap detec
 "any" meant "all".  I can see a case for both, but the problem statement is clear.
 Processing involves comparing timestamps between adjacent events.  Any time between adjacent events greater
 than 2 minutes is detected.
+
+# How to Run
+uv run main.py .\test_logs.txt
+
+*NOTE: uv must installed*
